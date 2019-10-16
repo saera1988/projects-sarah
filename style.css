@@ -1,0 +1,232 @@
+td {
+  border: brown solid;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+}
+
+table {
+  border: orange solid;
+  margin: 0 auto;
+  cursor: pointer;
+
+  position: relative;
+  /* left: 230px;
+ top: 300px; */
+  /* text-color:purple; */
+  text-emphasis: 40px;
+}
+
+#header {
+  /* height: 0px; */
+  /* width: 500px; */
+  /* padding: 0cm; */
+  background-attachment: url(image/images.jpeg);
+  text-align: right;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Style the head h2 */
+h2 {
+  position: absolute;
+  left: 300px;
+  top: 104px;
+  text-emphasis: size 100px;
+  font-size: 39px;
+  font-weight: bold;
+}
+
+/* Style the image in the header */
+img {
+  width: 250px;
+  height: 150px;
+}
+
+#container {
+  border: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.spot {
+  height: 150px;
+  width: 150px;
+}
+
+/* Style the list in navigation bar */
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  float: left;
+}
+
+/* Style the top navigation bar */
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: purple;
+}
+
+/* Style the topnav links */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Style the new game button */
+button {
+  display: block;
+  color: orange;
+  text-emphasis: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: orange;
+}
+
+.spot {
+  font-size: 130px;
+  color: purple;
+  background-color: blanchedalmond;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-weight: 900;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.spot:hover {
+  background-color: rgb(235, 154, 235);
+}
+
+.winner {
+  font-size: 130px;
+  color: white;
+  background-color: red;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-weight: 900;
+
+  /* background-color: red !important; */
+}
+
+footer{
+
+  background-color: purple;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 3px;
+
+ 
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+/* Set a specific color for each brand */
+
+/* linked in  */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-google {
+  background:orange;
+  color: white;
+}
+
+.fa-GA{
+ height: 50px;
+ width: 63px;
+ margin: 5px 3px;
+ position: relative;
+ top: 3px
+}
+
+
+
+.fa-misk{
+  background:url(image/download.png) no-repeat ;
+  background-size:cover;
+
+
+}
+
+
+.fott{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.score1{
+  float: left;
+  background-color:rgb(247, 181, 60);
+  height: 200px;
+  width: 200px;
+  border:purple solid;
+  border: 3px;
+  border-style: dotted;
+}
+.score2{
+  float: right;
+  background-color:rgb(247, 181, 60);
+  height: 200px;
+  width: 200px;
+  border:purple solid;
+  border: 3px;
+  border-style: dotted;
+
+}
+
+.score{
+text-align: center;
+color: purple;
+font-weight: bold;
+font-size: 30px;
+
+}
+
+#xresult{
+  text-align: center;
+  color: purple;
+  font-weight: bold;
+  font-size: 35px;
+  
+  
+  }
+
+  #oresult{
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    font-size: 35px;
+    
+    
+    }
