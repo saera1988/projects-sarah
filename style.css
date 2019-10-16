@@ -23,7 +23,8 @@ table {
   /* height: 0px; */
   /* width: 500px; */
   /* padding: 0cm; */
-  background-attachment: url(image/images.jpeg);
+  background: url(image/back.jpg);
+  background-size:cover;
   text-align: right;
   padding: 20px;
   display: flex;
@@ -34,17 +35,28 @@ table {
 /* Style the head h2 */
 h2 {
   position: absolute;
-  left: 300px;
-  top: 104px;
+  left: 239px;
+  top: 55px;
   text-emphasis: size 100px;
   font-size: 39px;
   font-weight: bold;
+  color:rgb(36, 36, 123);
+}
+h1{
+  position: absolute;
+  left: 240px;
+  top: 30px;
+  text-emphasis: size 100px;
+  font-size: 25px;
+  font-weight: bold;
+  color:rgb(36, 36, 123);
+
 }
 
 /* Style the image in the header */
 img {
-  width: 250px;
-  height: 150px;
+  width: 200px;
+  height: 100px;
 }
 
 #container {
@@ -86,12 +98,15 @@ li a {
 
 /* Style the new game button */
 button {
+  border: 10px;
   display: block;
   color: orange;
   text-emphasis: bold;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -187,7 +202,8 @@ footer{
 
 .score1{
   float: left;
-  background-color:rgb(247, 181, 60);
+  background:url(image/o.png) ;
+  background-size: cover;
   height: 200px;
   width: 200px;
   border:purple solid;
@@ -196,7 +212,8 @@ footer{
 }
 .score2{
   float: right;
-  background-color:rgb(247, 181, 60);
+  background:url(image/sure.png) ;
+  background-size: cover;
   height: 200px;
   width: 200px;
   border:purple solid;
@@ -207,9 +224,11 @@ footer{
 
 .score{
 text-align: center;
-color: purple;
+color:purple;
 font-weight: bold;
-font-size: 30px;
+font-size: 20px;
+margin-top: 35%;
+margin-left: 6%
 
 }
 
@@ -217,7 +236,8 @@ font-size: 30px;
   text-align: center;
   color: purple;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 25px;
+
   
   
   }
@@ -226,7 +246,7 @@ font-size: 30px;
     text-align: center;
     color: purple;
     font-weight: bold;
-    font-size: 35px;
-    
+    font-size: 25px;
+    margin-left: 6%;
     
     }
