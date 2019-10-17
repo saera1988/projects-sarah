@@ -17,12 +17,12 @@
 A Tic-Tac-Toe game UI, a simple Javascript web applicationcan at the most have 9 moves. The logic for player moves is as follows: Each player goes by pressing on an empty space on the board to mark it with an x or an o. The first person to get 3 x’s or o’s in a row, vertically, horizontally or diagonally, wins. We’ll use the java script.
 
  ## check the link:
- [I'm an inline-style link](https://saera1988.github.io/projects-sarah)
+ [TIC TAC TOE](https://saera1988.github.io/projects-sarah)
 
 
 ## Screenshots:
 
-![Philadelphia's Magic Gardens. This place was so cool!](./image/Screen Shot 2019-10-12 at 9.35.45 PM.png)
+![wareframe](/image/pic.png)
 
 
 # Technologies:
