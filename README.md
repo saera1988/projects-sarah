@@ -1,14 +1,14 @@
 # hello, Tic Tac Toe online game 
 
 ## Table of contents 
- ..*what is Tic Tac Toe?
-..* check the link
-..* Screenshots(wireframe,webpage)
- ..*Technologies
- ..*Features
- ..*How to play
-..*Status
-..*Further improvements
+* what is Tic Tac Toe?
+* check the link
+* Screenshots(wireframe,webpage)
+* Technologies
+* Features
+* How to play
+* Status
+* Further improvements
 
 
 
@@ -17,18 +17,21 @@
 A Tic-Tac-Toe game UI, a simple Javascript web applicationcan at the most have 9 moves. The logic for player moves is as follows: Each player goes by pressing on an empty space on the board to mark it with an x or an o. The first person to get 3 x’s or o’s in a row, vertically, horizontally or diagonally, wins. We’ll use the java script.
 
  ## check the link:
-  <a href=https://saera1988.github.io/projects-sarah></a>
+ [I'm an inline-style link](https://saera1988.github.io/projects-sarah)
+
 
 ## Screenshots:
-Example screenshot
+
+![Philadelphia's Magic Gardens. This place was so cool!](./image/Screen Shot 2019-10-12 at 9.35.45 PM.png)
+
 
 # Technologies:
 
-HTML:creating a Tic-Tac-Toe game board .
-JavaScript: to build the logic behind the game  .
-CSS:create the style .
-GIT:local storage 
-Visual code :text editor 
+* HTML:creating a Tic-Tac-Toe game board .
+* JavaScript: to build the logic behind the game  .
+* CSS:create the style .
+* GIT:local storage 
+* Visual code :text editor 
 
 ##  story about your development process 
 

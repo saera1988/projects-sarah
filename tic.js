@@ -1,11 +1,12 @@
-// basic  setup ,varibles represnt 2 players
+// basic  setup ,varibles 
 const user1 = "X";
 const user2 = "O";
+// veribles for counters used in calculation of the  end scores 
 let score1=0;
 let score2=0;
 let xvalue = document.querySelector("#xresult");
 let ovalue = document.querySelector("#oresult");
-
+//button used to restart the game 
 let button = document.querySelector(".button-1");
 
 // game boared represented in array
@@ -25,6 +26,7 @@ let winOptions = [
   [spots[2], spots[4], spots[6]]
 ];
 
+//checking only
 console.log(winOptions);
 console.log(spots);
 let count = 0;
@@ -118,6 +120,7 @@ function hoverEvent() {
   this.classList.add("gray");
 }
 
+// run the game 
 function srartGame() {
   console.log("start game");
   count = 0;

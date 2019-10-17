@@ -7,22 +7,18 @@ td {
   cursor: pointer;
 }
 
+/* game board  */
 table {
   border: orange solid;
   margin: 0 auto;
   cursor: pointer;
 
   position: relative;
-  /* left: 230px;
- top: 300px; */
-  /* text-color:purple; */
   text-emphasis: 40px;
 }
 
 #header {
-  /* height: 0px; */
-  /* width: 500px; */
-  /* padding: 0cm; */
+ 
   background: url(image/back.jpg);
   background-size:cover;
   text-align: right;
@@ -42,6 +38,7 @@ h2 {
   font-weight: bold;
   color:rgb(36, 36, 123);
 }
+/* Style the head h1 */
 h1{
   position: absolute;
   left: 240px;
@@ -66,6 +63,7 @@ img {
   align-items: center;
   padding: 20px;
 }
+/* cells format */
 .spot {
   height: 150px;
   width: 150px;
@@ -124,17 +122,19 @@ li a:hover {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
+
 .spot:hover {
   background-color: rgb(235, 154, 235);
 }
 
+/* this code didnt applay it spoussed to change the color of the winner blocks
 .winner {
   font-size: 130px;
   color: white;
   background-color: red;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  font-weight: 900;
+  font-weight: 900; */
 
   /* background-color: red !important; */
 }
@@ -148,7 +148,7 @@ footer{
   text-align: center;
 }
 
-/* Style all font awesome icons */
+/* Style all font footer icons */
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -171,11 +171,13 @@ footer{
   color: white;
 }
 
+/* google icon */
 .fa-google {
   background:orange;
   color: white;
 }
 
+/* GA icon */
 .fa-GA{
  height: 50px;
  width: 63px;
@@ -185,7 +187,7 @@ footer{
 }
 
 
-
+/* Misk icon */
 .fa-misk{
   background:url(image/download.png) no-repeat ;
   background-size:cover;
@@ -193,13 +195,14 @@ footer{
 
 }
 
-
+/* footer styling using class name */
 .fott{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* styling the div represinting the portfolio photo and the score for Oplayer */
 .score1{
   float: left;
   background:url(image/o.png) ;
@@ -210,6 +213,8 @@ footer{
   border: 3px;
   border-style: dotted;
 }
+
+/* styling the div represinting the portfolio photo and the score for Xplayer */
 .score2{
   float: right;
   background:url(image/sure.png) ;
@@ -222,6 +227,7 @@ footer{
 
 }
 
+/* styling the result div */
 .score{
 text-align: center;
 color:purple;
@@ -232,6 +238,8 @@ margin-left: 6%
 
 }
 
+
+/* styling the text on the xPlayer's result div */
 #xresult{
   text-align: center;
   color: purple;
@@ -242,6 +250,7 @@ margin-left: 6%
   
   }
 
+  /* styling the text on the oPlayer's result div */
   #oresult{
     text-align: center;
     color: purple;
